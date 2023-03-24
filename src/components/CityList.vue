@@ -14,7 +14,7 @@ import axios from "axios";
 import CityCard from "../components/CityCard.vue";
 import { useRouter } from "vue-router";
 
-const openWeatherAPIKey = import.meta.env.OPENWEATHER_API_KEY;
+const openWeatherAPIKey = import.meta.env.VITE_OPENWEATHER_API_KEY;
 const savedCities = ref([]);
 const getCities = async () => {
     if (localStorage.getItem('savedCities')) {

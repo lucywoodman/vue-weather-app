@@ -55,7 +55,7 @@ const previewCity = (searchResult) => {
   });
 };
 
-const mapboxAPIKey = import.meta.env.MAPBOX_API_KEY;
+const mapboxAPIKey = import.meta.env.VITE_MAPBOX_API_KEY;
 const searchQuery = ref("");
 const queryTimeout = ref(null);
 const mapboxSearchResults = ref(null);
